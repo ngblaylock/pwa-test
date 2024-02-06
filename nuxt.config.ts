@@ -11,8 +11,8 @@ export default defineNuxtConfig({
     manifest: {
       name: "Nuxt3 PWA",
       short_name: "N3 PWA",
-      start_url: "./app",
       description: "This is a test",
+      start_url: "/app/",
       icons: [
         {
           src: "icons/icon_48.png",
@@ -81,7 +81,7 @@ export default defineNuxtConfig({
       ]
     },
     workbox: {
-      navigateFallback: "/",
+      navigateFallback: "/app",
     },
     devOptions: {
       enabled: true,
