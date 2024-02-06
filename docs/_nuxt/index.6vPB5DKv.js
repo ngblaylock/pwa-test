@@ -1,1 +1,0 @@
-import{_ as o}from"./nuxt-link.DsBj_3xk.js";import{_ as t,c as a,b as n,w as c,a as _,o as s,d as r}from"./entry.p-fzQMr-.js";const p={},d=_("h1",null,"Hello Homepage.",-1);function l(i,m){const e=o;return s(),a("div",null,[d,n(e,{to:"/app"},{default:c(()=>[r("Go To App")]),_:1})])}const x=t(p,[["render",l]]);export{x as default};
