@@ -1,1 +1,0 @@
-import{_ as t,c as a,b as c,w as n,F as o,a as s,T as r,o as _,d as l}from"./entry._Xd0ehJH.js";const d={},p=s("h1",null,"App",-1);function i(f,u){const e=r;return _(),a(o,null,[c(e,null,{default:n(()=>[l("App")]),_:1}),p],64)}const x=t(d,[["render",i]]);export{x as default};

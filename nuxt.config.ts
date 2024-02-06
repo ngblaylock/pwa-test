@@ -56,13 +56,13 @@ export default defineNuxtConfig({
           src: "icons/icon_512.png",
           sizes: "512x512",
           type: "image/png",
-          purpose: "maskable",
+          purpose: "any",
         },
         {
           src: "icons/icon_512.png",
           sizes: "512x512",
           type: "image/png",
-          purpose: "any",
+          purpose: "maskable",
         },
       ],
       "screenshots" : [
