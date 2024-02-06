@@ -11,51 +11,74 @@ export default defineNuxtConfig({
     manifest: {
       name: "Nuxt3 PWA",
       short_name: "N3 PWA",
+      start_url: "./app",
       description: "This is a test",
       icons: [
         {
           src: "icons/icon_48.png",
           sizes: "48x48",
           type: "image/png",
-          purpose: "any maskable",
+          purpose: "maskable",
         },
         {
           src: "icons/icon_72.png",
           sizes: "72x72",
           type: "image/png",
-          purpose: "any maskable",
+          purpose: "maskable",
         },
         {
           src: "icons/icon_96.png",
           sizes: "96x96",
           type: "image/png",
-          purpose: "any maskable",
+          purpose: "maskable",
         },
         {
           src: "icons/icon_128.png",
           sizes: "128x128",
           type: "image/png",
-          purpose: "any maskable",
+          purpose: "maskable",
         },
         {
           src: "icons/icon_192.png",
           sizes: "192x192",
           type: "image/png",
-          purpose: "any maskable",
+          purpose: "maskable",
         },
         {
           src: "icons/icon_384.png",
           sizes: "384x384",
           type: "image/png",
-          purpose: "any maskable",
+          purpose: "maskable",
         },
         {
           src: "icons/icon_512.png",
           sizes: "512x512",
           type: "image/png",
-          purpose: "any maskable",
+          purpose: "maskable",
+        },
+        {
+          src: "icons/icon_512.png",
+          sizes: "512x512",
+          type: "image/png",
+          purpose: "any",
         },
       ],
+      "screenshots" : [
+        {
+          "src": "icons/wide-screenshot.png",
+          "sizes": "1196x822",
+          "type": "image/png",
+          "form_factor": "wide",
+          "label": "Homescreen of Awesome App"
+        },
+        {
+          "src": "icons/narrow-screenshot.jpeg",
+          "sizes": "1125x2436",
+          "type": "image/jpeg",
+          "form_factor": "narrow",
+          "label": "List of Awesome Resources available in Awesome App"
+        }
+      ]
     },
     workbox: {
       navigateFallback: "/",
