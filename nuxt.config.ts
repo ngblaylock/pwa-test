@@ -13,6 +13,8 @@ export default defineNuxtConfig({
       short_name: "N3 PWA",
       description: "This is a test",
       start_url: "/app/",
+      scope: '/app/',
+      theme_color: "#684191",
       icons: [
         {
           src: "icons/icon_48.png",
