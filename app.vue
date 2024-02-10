@@ -5,7 +5,6 @@
       <Meta name="theme-color" content="#684191" />
       <Meta name="description" content="Testing my PWA" />
     </Head>
-    <VitePwaManifest />
     <NuxtPage />
   </div>
 </template>
